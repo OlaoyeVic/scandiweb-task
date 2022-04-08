@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 20px 50px;
+    background-color: #ffffff;
+    height: 80px;
+    overflow: hidden;
+}
+.header-category {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+.header-logo {
+    margin: auto;
+}
+.header-cart {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}

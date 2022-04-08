@@ -1,0 +1,38 @@
+.women-category {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+}
+.women-category-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.women-category-header h3 {
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 67.2px;
+}
+.product-card {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    align-items: center;
+    width: 386px;
+    height: 444px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    margin-top: 50px;
+}
+.product-card img {
+    width: 356px;
+    height: 338px;
+    background: rgba(57, 55, 72, 0.22);
+    position: relative;
+}
+.product-card span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
