@@ -10,9 +10,9 @@ class Header extends React.Component {
         return (
             <div className='header'>
                 <div className='header-category'>
-                    <p>women</p>
-                    <p>men</p>
-                    <p>kids</p>
+                    <p>all</p>
+                    <p>tech</p>
+                    <p>clothes</p>
                 </div>
                 <div className='header-logo'>
                     <img src={logo} alt='logo' />

@@ -2,7 +2,7 @@ import React from 'react'
 import { useQuery, gql } from '@apollo/client'
 
 import undraw from '../assets/undraw.svg'
-import './women.css'
+import './all.css'
 
 const PRODUCT_QUERY = gql`
     {
@@ -13,7 +13,7 @@ const PRODUCT_QUERY = gql`
     }
 `
 
-class Women extends React.Component {
+class All extends React.Component {
     constructor() {
         super()
         const {data, loading, error} = useQuery()
