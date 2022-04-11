@@ -1,3 +1,6 @@
+const currentID = window.location.pathname.split('/')[2]
+const preferredCurrency = localStorage.getItem('preferredCurrency')
+
 const initialProductState = {
     category: 'all',
     productID: currentID,
@@ -89,8 +92,4 @@ const rootReducer = (state = initialProductState, action) => {
              return state
     }
 }
-
-const currentID = window.location.pathname.split('/')[2]
-const preferredCurrency = localStorage.getItem('preferredCurrency')
-
 export default rootReducer
